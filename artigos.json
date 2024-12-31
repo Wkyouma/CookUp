@@ -1,0 +1,451 @@
+[
+    {
+        "title": "Bolo de Cenoura",
+        "text": [
+            "Ingredientes: 3 cenouras médias, 3 ovos, 1 xícara de óleo, 2 xícaras de açúcar, 2 xícaras de farinha de trigo, 1 colher de fermento em pó.",
+            "Modo de preparo: Bata no liquidificador as cenouras, ovos, óleo e açúcar. Depois adicione a farinha e o fermento, mexendo bem. Asse em forno pré-aquecido a 180°C por 40 minutos."
+        ],
+        "tags": "sobremesa, bolo, fácil",
+        "id": "1"
+    },
+    {
+        "title": "Pão de Alho",
+        "text": [
+            "Ingredientes: 1 pão francês, 100g de manteiga, 3 dentes de alho amassados, 1 colher de salsinha picada.",
+            "Modo de preparo: Misture a manteiga com o alho e a salsinha. Corte o pão em fatias, passe a mistura de alho em cada fatia e asse em forno pré-aquecido a 180°C por 10 minutos."
+        ],
+        "tags": "aperitivo, fácil, rápido",
+        "id": "2"
+    },
+    {
+        "title": "Feijoada",
+        "text": [
+            "Ingredientes: 500g de feijão preto, 200g de carne seca, 200g de costelinha de porco, 100g de linguiça calabresa, 1 cebola picada, 3 dentes de alho picados, 1 folha de louro.",
+            "Modo de preparo: Cozinhe o feijão com as carnes e o louro até que tudo esteja bem cozido. Frite a cebola e o alho e adicione ao feijão. Sirva com arroz, couve e farofa."
+        ],
+        "tags": "prato principal, típico, almoço",
+        "id": "3"
+    },
+    {
+        "title": "Brigadeiro",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 2 colheres de sopa de manteiga, 7 colheres de sopa de achocolatado em pó, granulado para enrolar.",
+            "Modo de preparo: Em uma panela, misture todos os ingredientes e cozinhe em fogo baixo até desgrudar do fundo. Modele em bolinhas e passe no granulado."
+        ],
+        "tags": "sobremesa, doce, fácil",
+        "id": "4"
+    },
+    {
+        "title": "Mousse de Maracujá",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 1 lata de creme de leite, 1 pacote de suco de maracujá em pó, 1/2 xícara de água.",
+            "Modo de preparo: Bata todos os ingredientes no liquidificador até ficar cremoso. Leve à geladeira por 2 horas antes de servir."
+        ],
+        "tags": "sobremesa, mousse, refrescante",
+        "id": "5"
+    },
+    {
+        "title": "Macarrão à Carbonara",
+        "text": [
+            "Ingredientes: 200g de macarrão, 100g de bacon, 2 ovos, 50g de queijo parmesão, sal e pimenta a gosto.",
+            "Modo de preparo: Cozinhe o macarrão. Enquanto isso, frite o bacon. Bata os ovos com o queijo e tempere. Misture o macarrão, o bacon e a mistura de ovos até ficar cremoso."
+        ],
+        "tags": "prato principal, italiano",
+        "id": "6"
+    },
+    {
+        "title": "Torta de Limão",
+        "text": [
+            "Ingredientes: 200g de biscoito de maizena, 100g de manteiga, 1 lata de leite condensado, 1/2 xícara de suco de limão, 1 caixinha de creme de leite.",
+            "Modo de preparo: Triture os biscoitos, misture com a manteiga e forre o fundo de uma forma. Misture o leite condensado, suco de limão e creme de leite e despeje sobre a base. Leve à geladeira por 2 horas."
+        ],
+        "tags": "sobremesa, torta, fácil",
+        "id": "7"
+    },
+    {
+        "title": "Sopa de Abóbora",
+        "text": [
+            "Ingredientes: 500g de abóbora, 1 cebola, 2 dentes de alho, 1 litro de caldo de legumes, sal e pimenta a gosto.",
+            "Modo de preparo: Cozinhe a abóbora até ficar macia. Refogue a cebola e o alho, adicione a abóbora cozida e o caldo de legumes. Bata no liquidificador e sirva quente."
+        ],
+        "tags": "sopa, vegana, inverno",
+        "id": "8"
+    },
+    {
+        "title": "Coxinha",
+        "text": [
+            "Ingredientes: 500g de frango desfiado, 2 xícaras de caldo de frango, 3 colheres de sopa de manteiga, 2 xícaras de farinha de trigo, 1 ovo, farinha de rosca.",
+            "Modo de preparo: Cozinhe o frango e desfie. Prepare a massa com o caldo de frango e a farinha. Modele as coxinhas com o frango e passe no ovo e farinha de rosca. Frite até dourar."
+        ],
+        "tags": "lanche, salgados",
+        "id": "9"
+    },
+    {
+        "title": "Sushi",
+        "text": [
+            "Ingredientes: 1 xícara de arroz para sushi, 1 folha de nori, peixe cru (salmão ou atum), molho de soja.",
+            "Modo de preparo: Cozinhe o arroz para sushi e deixe esfriar. Modele o arroz sobre a folha de nori, adicione o peixe cru e enrole. Sirva com molho de soja."
+        ],
+        "tags": "prato principal, japonês",
+        "id": "10"
+    },
+    {
+        "title": "Pizza de Marguerita",
+        "text": [
+            "Ingredientes: 1 massa de pizza, 200g de molho de tomate, 200g de queijo mozzarella, manjericão, azeite.",
+            "Modo de preparo: Abra a massa de pizza, adicione o molho de tomate e o queijo mozzarella. Asse a pizza em forno quente por 15-20 minutos. Finalize com manjericão e azeite."
+        ],
+        "tags": "prato principal, italiano, pizza",
+        "id": "11"
+    },
+    {
+        "title": "Pudim de Leite Condensado",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 2 latas de leite, 3 ovos, 1 xícara de açúcar.",
+            "Modo de preparo: Bata todos os ingredientes no liquidificador. Caramelize a forma com açúcar e despeje a mistura. Cozinhe em banho-maria por 1 hora."
+        ],
+        "tags": "sobremesa, pudim",
+        "id": "12"
+    },
+    {
+        "title": "Churrasco",
+        "text": [
+            "Ingredientes: 1kg de carne (alcatra, picanha, costela), sal grosso, pimenta-do-reino.",
+            "Modo de preparo: Tempere a carne com sal grosso e pimenta. Asse na churrasqueira até o ponto desejado. Sirva com vinagrete e farofa."
+        ],
+        "tags": "prato principal, carne, churrasco",
+        "id": "13"
+    },
+    {
+        "title": "Hambúrguer Caseiro",
+        "text": [
+            "Ingredientes: 500g de carne moída, 1 cebola picada, 1 ovo, sal, pimenta, pães de hambúrguer.",
+            "Modo de preparo: Modele os hambúrgueres com a carne moída, cebola, ovo, sal e pimenta. Grelhe-os até o ponto desejado. Sirva nos pães com seus acompanhamentos preferidos."
+        ],
+        "tags": "lanche, hambúrguer",
+        "id": "14"
+    },
+    {
+        "title": "Salada Caesar",
+        "text": [
+            "Ingredientes: Alface romana, croutons, peito de frango grelhado, queijo parmesão ralado, molho Caesar.",
+            "Modo de preparo: Misture os ingredientes da salada e regue com o molho Caesar. Sirva imediatamente."
+        ],
+        "tags": "salada, saudável",
+        "id": "15"
+    },
+    {
+        "title": "Tacos Mexicanos",
+        "text": [
+            "Ingredientes: 500g de carne moída, 1 pacote de tortillas, alface, queijo, salsa, pimentão.",
+            "Modo de preparo: Cozinhe a carne com temperos mexicanos. Monte os tacos com a carne, alface, queijo e os outros ingredientes a gosto."
+        ],
+        "tags": "mexicano, lanche",
+        "id": "16"
+    },
+    {
+        "title": "Risoto de Frango",
+        "text": [
+            "Ingredientes: 2 xícaras de arroz arbóreo, 500g de peito de frango desfiado, 1 cebola, 1 litro de caldo de galinha, queijo parmesão.",
+            "Modo de preparo: Refogue a cebola, adicione o arroz e mexa. Vá adicionando o caldo de galinha aos poucos até o arroz ficar al dente. Finalize com o frango e o queijo."
+        ],
+        "tags": "prato principal, italiano, arroz",
+        "id": "17"
+    },
+    {
+        "title": "Torta de Frango",
+        "text": [
+            "Ingredientes: 2 xícaras de frango desfiado, 1 pacote de massa de torta, 1 lata de creme de leite, 1 cebola.",
+            "Modo de preparo: Prepare o recheio com o frango e a cebola. Forre uma forma com a massa de torta, adicione o recheio e cubra com outra camada de massa. Asse até dourar."
+        ],
+        "tags": "salgados, torta",
+        "id": "18"
+    },
+    {
+        "title": "Peixe ao Forno",
+        "text": [
+            "Ingredientes: 1kg de peixe, 1 limão, 3 dentes de alho, azeite, ervas finas.",
+            "Modo de preparo: Tempere o peixe com limão, alho e ervas. Regue com azeite e asse em forno pré-aquecido por 30 minutos."
+        ],
+        "tags": "prato principal, peixe, saudável",
+        "id": "19"
+    },
+    {
+        "title": "Mingau de Milho",
+        "text": [
+            "Ingredientes: 1 lata de milho verde, 500ml de leite, 2 colheres de açúcar, 1 colher de amido de milho.",
+            "Modo de preparo: Bata o milho no liquidificador e coe. Misture com o leite, açúcar e amido. Cozinhe até engrossar."
+        ],
+        "tags": "sobremesa, fácil, milho",
+        "id": "20"
+    },
+    {
+        "title": "Bacalhau à Brás",
+        "text": [
+            "Ingredientes: 500g de bacalhau desfiado, 2 batatas, 2 ovos, cebola, azeitonas.",
+            "Modo de preparo: Refogue a cebola e o bacalhau, adicione as batatas fritas e os ovos batidos. Misture bem e finalize com as azeitonas."
+        ],
+        "tags": "prato principal, português",
+        "id": "21"
+    },
+    {
+        "title": "Bolo de Chocolate",
+        "text": [
+            "Ingredientes: 3 ovos, 2 xícaras de açúcar, 1 xícara de leite, 2 xícaras de farinha de trigo, 1 xícara de achocolatado, 1 colher de fermento.",
+            "Modo de preparo: Bata os ingredientes no liquidificador, despeje a massa em uma forma untada e asse em forno pré-aquecido a 180°C por 40 minutos."
+        ],
+        "tags": "sobremesa, chocolate",
+        "id": "22"
+    },
+    {
+        "title": "Bife Acebolado",
+        "text": [
+            "Ingredientes: 4 bifes de sua preferência, 1 cebola, óleo, sal e pimenta.",
+            "Modo de preparo: Frite os bifes na frigideira e reserve. Na mesma frigideira, frite as cebolas até dourar e sirva com os bifes."
+        ],
+        "tags": "prato principal, carne",
+        "id": "23"
+    },
+    {
+        "title": "Creme Brulée",
+        "text": [
+            "Ingredientes: 500ml de creme de leite, 1 fava de baunilha, 5 gemas, 100g de açúcar.",
+            "Modo de preparo: Misture o creme de leite, a baunilha e leve ao fogo. Bata as gemas com açúcar e misture. Cozinhe até engrossar e coloque em ramequins. Finalize com açúcar e caramelize."
+        ],
+        "tags": "sobremesa, sofisticada",
+        "id": "24"
+    }, {
+        "title": "Macarrão à Carbonara",
+        "text": [
+            "Ingredientes: 500g de macarrão, 150g de bacon, 3 ovos, 100g de queijo parmesão, sal, pimenta.",
+            "Modo de preparo: Cozinhe o macarrão. Frite o bacon e misture com os ovos batidos e queijo. Adicione o macarrão e mexa até ficar cremoso."
+        ],
+        "tags": "prato principal, massa",
+        "id": "25"
+    },
+    {
+        "title": "Risoto de Cogumelos",
+        "text": [
+            "Ingredientes: 300g de arroz para risoto, 200g de cogumelos, 1 cebola, 1 litro de caldo de legumes, 100g de queijo parmesão.",
+            "Modo de preparo: Refogue a cebola, adicione os cogumelos e o arroz. Vá adicionando o caldo aos poucos até o arroz cozinhar. Finalize com queijo."
+        ],
+        "tags": "prato principal, risoto",
+        "id": "26"
+    },
+    {
+        "title": "Brigadeiro",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 2 colheres de sopa de manteiga, 7 colheres de achocolatado, granulado.",
+            "Modo de preparo: Misture todos os ingredientes em uma panela e cozinhe até soltar do fundo. Modele as bolinhas e passe no granulado."
+        ],
+        "tags": "sobremesa, chocolate",
+        "id": "27"
+    },
+    {
+        "title": "Torta de Limão",
+        "text": [
+            "Ingredientes: 1 pacote de biscoito de maisena, 100g de manteiga, 1 lata de leite condensado, 1 caixa de creme de leite, suco de 2 limões.",
+            "Modo de preparo: Triture os biscoitos e misture com a manteiga. Modele no fundo de uma forma. Misture os outros ingredientes e coloque sobre a base. Deixe na geladeira."
+        ],
+        "tags": "sobremesa, fácil",
+        "id": "28"
+    },
+    {
+        "title": "Feijoada",
+        "text": [
+            "Ingredientes: 500g de feijão preto, 300g de carne seca, 200g de linguiça calabresa, 100g de bacon, 1 cebola, alho, folhas de louro.",
+            "Modo de preparo: Cozinhe as carnes e o feijão separadamente. Em uma panela grande, misture tudo e cozinhe por mais 40 minutos."
+        ],
+        "tags": "prato principal, feijão",
+        "id": "29"
+    },
+    {
+        "title": "Mousse de Maracujá",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 1 lata de creme de leite, 1/2 xícara de suco de maracujá, 1 envelope de gelatina.",
+            "Modo de preparo: Dissolva a gelatina no suco de maracujá e misture com o leite condensado e creme de leite. Bata tudo e leve à geladeira."
+        ],
+        "tags": "sobremesa, rápida",
+        "id": "30"
+    },
+    {
+        "title": "Sopa de Abóbora",
+        "text": [
+            "Ingredientes: 500g de abóbora, 1 cenoura, 1 cebola, 500ml de caldo de legumes, sal, pimenta.",
+            "Modo de preparo: Cozinhe todos os ingredientes até ficarem macios. Bata tudo no liquidificador e sirva."
+        ],
+        "tags": "sopa, vegetariano",
+        "id": "31"
+    },
+    {
+        "title": "Salada de Quinoa",
+        "text": [
+            "Ingredientes: 1 xícara de quinoa, 1 pepino, 1 tomate, azeite, limão, sal, pimenta.",
+            "Modo de preparo: Cozinhe a quinoa e deixe esfriar. Misture com os vegetais picados e tempere com azeite, limão e temperos."
+        ],
+        "tags": "salada, saudável",
+        "id": "32"
+    },
+    {
+        "title": "Pudim de Leite Condensado",
+        "text": [
+            "Ingredientes: 1 lata de leite condensado, 1 lata de leite, 3 ovos, 1 xícara de açúcar.",
+            "Modo de preparo: Faça um caramelo com o açúcar. Misture os outros ingredientes e despeje na forma caramelizada. Asse em banho-maria por 1 hora."
+        ],
+        "tags": "sobremesa, clássica",
+        "id": "33"
+    },
+    {
+        "title": "Coxinha",
+        "text": [
+            "Ingredientes: 500g de peito de frango, 1 cebola, 500g de massa de coxinha, óleo para fritar.",
+            "Modo de preparo: Cozinhe o frango e desfie. Prepare o recheio com a cebola e a carne. Modele a massa em formato de coxinha e frite."
+        ],
+        "tags": "salgado, fritura",
+        "id": "34"
+    },
+    {
+        "title": "Churros",
+        "text": [
+            "Ingredientes: 1 xícara de água, 1/2 xícara de manteiga, 1 xícara de farinha de trigo, 2 ovos, açúcar e canela.",
+            "Modo de preparo: Cozinhe a água, manteiga e farinha até formar uma massa. Modele em pedaços e frite. Passe no açúcar com canela."
+        ],
+        "tags": "sobremesa, fritura",
+        "id": "35"
+    },
+    {
+        "title": "Bife à Parmegiana",
+        "text": [
+            "Ingredientes: 4 bifes, 2 ovos, farinha de rosca, queijo mussarela, molho de tomate.",
+            "Modo de preparo: Passe os bifes na farinha de rosca e frite. Cubra com queijo e molho de tomate, depois asse até dourar."
+        ],
+        "tags": "prato principal, carne",
+        "id": "36"
+    },
+    {
+        "title": "Arroz de Carreteiro",
+        "text": [
+            "Ingredientes: 500g de carne seca, 2 xícaras de arroz, 1 cebola, 3 tomates, pimentão.",
+            "Modo de preparo: Refogue a carne com os temperos. Adicione o arroz e o caldo. Cozinhe até o arroz ficar pronto."
+        ],
+        "tags": "prato principal, arroz",
+        "id": "37"
+    },
+    {
+        "title": "Batata Rösti",
+        "text": [
+            "Ingredientes: 4 batatas, 1 cebola, 2 colheres de manteiga, sal, pimenta.",
+            "Modo de preparo: Cozinhe as batatas, rale e misture com a cebola. Modele em pequenas porções e frite em manteiga."
+        ],
+        "tags": "acompanhamento, batata",
+        "id": "38"
+    },
+    {
+        "title": "Tacos",
+        "text": [
+            "Ingredientes: 500g de carne moída, 1 pacote de tortillas, alface, tomate, queijo.",
+            "Modo de preparo: Cozinhe a carne e monte os tacos com os vegetais e o queijo. Sirva com molho picante."
+        ],
+        "tags": "prato principal, mexicano",
+        "id": "39"
+    },
+    {
+        "title": "Pão de Queijo",
+        "text": [
+            "Ingredientes: 500g de polvilho doce, 250g de queijo minas, 1 xícara de leite, 1 ovo, 1/2 xícara de óleo.",
+            "Modo de preparo: Misture todos os ingredientes até formar uma massa. Modele as bolinhas e asse por 20 minutos."
+        ],
+        "tags": "salgado, queijo",
+        "id": "40"
+    },
+    {
+        "title": "Strogonoff de Carne",
+        "text": [
+            "Ingredientes: 500g de carne em tiras, 1 cebola, 1 lata de creme de leite, 1/2 xícara de ketchup, 1 colher de mostarda.",
+            "Modo de preparo: Cozinhe a carne com a cebola. Adicione os outros ingredientes e cozinhe até formar um molho cremoso."
+        ],
+        "tags": "prato principal, carne",
+        "id": "41"
+    },
+    {
+        "title": "Salmão Grelhado",
+        "text": [
+            "Ingredientes: 4 filés de salmão, 1 limão, azeite, sal, pimenta.",
+            "Modo de preparo: Tempere o salmão com limão, azeite, sal e pimenta. Grelhe até dourar."
+        ],
+        "tags": "prato principal, peixe",
+        "id": "42"
+    },
+    {
+        "title": "Mousse de Chocolate",
+        "text": [
+            "Ingredientes: 200g de chocolate, 1 lata de creme de leite, 3 claras, 1/4 de xícara de açúcar.",
+            "Modo de preparo: Derreta o chocolate, misture com o creme de leite e depois incorpore as claras em neve. Leve à geladeira."
+        ],
+        "tags": "sobremesa, chocolate",
+        "id": "43"
+    },
+    {
+        "title": "Cuscuz Paulista",
+        "text": [
+            "Ingredientes: 1 xícara de milho para cuscuzeiro, 1 tomate, 1 pimentão, 100g de camarão, 1/2 xícara de caldo de galinha.",
+            "Modo de preparo: Misture todos os ingredientes e cozinhe até a água secar. Sirva quente."
+        ],
+        "tags": "prato principal, arroz",
+        "id": "44"
+    },
+    {
+        "title": "Pão de Alho",
+        "text": [
+            "Ingredientes: 1 pão francês, 2 colheres de manteiga, 4 dentes de alho, 1/2 xícara de queijo parmesão.",
+            "Modo de preparo: Misture a manteiga com o alho e o queijo. Passe no pão e asse até dourar."
+        ],
+        "tags": "acompanhamento, pão",
+        "id": "45"
+    },
+    {
+        "title": "Tiramisu",
+        "text": [
+            "Ingredientes: 500g de mascarpone, 4 ovos, 1 pacote de biscoito champanhe, 1 xícara de café forte.",
+            "Modo de preparo: Misture as gemas com o mascarpone. Molhe os biscoitos no café e alterne camadas com o creme. Leve à geladeira."
+        ],
+        "tags": "sobremesa, italiana",
+        "id": "46"
+    },
+    {
+        "title": "Lasanha à Bolonhesa",
+        "text": [
+            "Ingredientes: 500g de carne moída, 2 xícaras de molho de tomate, 250g de queijo muçarela, 1 pacote de massa de lasanha.",
+            "Modo de preparo: Cozinhe a carne com o molho, alterne camadas de carne, queijo e massa. Asse por 40 minutos."
+        ],
+        "tags": "prato principal, massa",
+        "id": "47"
+    },
+    {
+        "title": "Canelone de Ricota",
+        "text": [
+            "Ingredientes: 250g de massa de canelone, 300g de ricota, 1 xícara de molho de tomate, queijo parmesão.",
+            "Modo de preparo: Recheie os canelones com ricota, cubra com molho e queijo. Asse por 30 minutos."
+        ],
+        "tags": "prato principal, massa",
+        "id": "48"
+    },
+    {
+        "title": "Pavê de Morango",
+        "text": [
+            "Ingredientes: 1 pacote de biscoito champagne, 500g de morangos, 500ml de creme de leite, 1 lata de leite condensado.",
+            "Modo de preparo: Faça camadas alternadas de biscoitos, morangos e creme. Leve à geladeira."
+        ],
+        "tags": "sobremesa, fácil",
+        "id": "49"
+    },
+    {
+        "title": "Pão de Cenoura",
+        "text": [
+            "Ingredientes: 2 cenouras, 2 ovos, 1 xícara de óleo, 2 xícaras de açúcar, 3 xícaras de farinha de trigo.",
+            "Modo de preparo: Bata os ingredientes líquidos, misture com a farinha e asse por 40 minutos."
+        ],
+        "tags": "salgado, pão",
+        "id": "50"
+    }
+]
