@@ -7,7 +7,7 @@ const ToggleTheme = () => {
         systemPreference && document.documentElement.classList.add('dark')
     }) 
     const Toggle = () => {
-        document.documentElement.classList.toggle('dark')
+        pageClasses.toggle('dark')
     }
     return (
         <div className="hidden sm:block">
