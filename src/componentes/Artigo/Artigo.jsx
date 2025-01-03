@@ -1,14 +1,18 @@
-import data from '../../../artigos.json';
-const ArtigosLista = () => {
-    return(
-        <div className='text-black dark:text-white'>
-        {data.map((props, index) => (
-            <div key={index}>
-            <h1>{props.title}</h1>
-            <a className='bg-gradient-to-r from-laranja-claro to-laranja-escuro rounded-e '>{props.tags}</a>
-            </div>
-        ))}
-    </div>
+import ReceitaCard from '../ReceitaCard'
+
+const ArtigosLista = ({ receitas }) => {
+    return (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {receitas.map((recipe, index) => (
+                <ReceitaCard 
+                    key={index}
+                    title={recipe.title}
+                    tags={recipe.tags}
+                    text={recipe.text}
+                />
+            ))}
+        </div>
     )
 }
+
 export default ArtigosLista
