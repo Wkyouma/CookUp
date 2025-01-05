@@ -6,6 +6,7 @@ const ArtigosLista = ({ receitas }) => {
             {receitas.map((recipe, index) => (
                 <ReceitaCard 
                     key={index}
+                    id={recipe.id}
                     title={recipe.title}
                     tags={recipe.tags}
                     text={recipe.text}
