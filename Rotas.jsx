@@ -10,16 +10,18 @@ const Rotas = () => {
       const [user,setUser] = useState()
       const hasUser = Boolean(user)
     return(
-
-        <BrowserRouter>
-        <Cabecalho user={user}></Cabecalho>
-           { hasUser && <Routes>
-                <Route path="/" element={<PaginaPadrao/>}> </Route>
-                <Route path="/receita/:id" element={<ReceitaPage />}> </Route>
-                <Route path="*" element={<NotFound></NotFound>} />
-            </Routes>}
-            {hasUser || <Form onSubmit={setUser}></Form>}
-        </BrowserRouter>
+        <div className='h-screen'>
+            <BrowserRouter>
+            <Cabecalho user={user}></Cabecalho>
+            { hasUser && <Routes>
+                    <Route path="/" element={<PaginaPadrao/>}> </Route>
+                    <Route path="/receita/:id" element={<ReceitaPage />}> </Route>
+                    <Route path="*" element={<NotFound></NotFound>} />
+                </Routes>}
+                
+                {hasUser || <Form onSubmit={setUser}></Form>}
+            </BrowserRouter>
+        </div>
     
     )
 }

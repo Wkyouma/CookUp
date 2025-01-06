@@ -1,6 +1,6 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
-const CampoTexto = ({ value, onChange, placeholder }) => {
+const BarraPesquisa = ({ value, onChange, placeholder, Icon  }) => {
     return (
         <div className="relative max-w-xl mx-auto mb-8">
             <input
@@ -17,10 +17,10 @@ const CampoTexto = ({ value, onChange, placeholder }) => {
                          transition-all duration-300 shadow-lg"
             />
             <div className="absolute right-3 top-3">
-                <MagnifyingGlassIcon className="h-6 w-6 text-laranja-escuro dark:text-laranja-claro" />
+                <Icon className="h-6 w-6 text-laranja-escuro dark:text-laranja-claro" />
             </div>
         </div>
     )
 }
 
-export default CampoTexto
+export default BarraPesquisa

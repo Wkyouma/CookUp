@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 import ArtigosLista from '../componentes/Artigo/Artigo'
-import CampoTexto from '../componentes/CampoTexto'
+import CampoTexto from '../componentes/BarraPesquisa'
 import { useState } from 'react'
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
 import data from '../../artigos.json'
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <CampoTexto 
+            Icon={MagnifyingGlassIcon}
             value={searchTerm}
             onChange={handleSearch}
             placeholder="Encontre sua receita favorita..."
