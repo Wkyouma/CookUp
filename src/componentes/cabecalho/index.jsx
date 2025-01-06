@@ -11,7 +11,7 @@ const Cabecalho = ({user}) => {
       </h2>
  
       <Link to="/" className="cursor-pointer">
-        <h1 className="text-gray-800 dark:text-white text-5xl font-bold">
+        <h1 className="text-gray-800 dark:text-white text-5xl font-bold -ml-24">
           Cook<span className="text-white dark:text-laranja-claro">Up</span>
         </h1>
       </Link>

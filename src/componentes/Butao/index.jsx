@@ -5,32 +5,31 @@ const Butao = ({ type, children }) => {
     <motion.div
       whileHover="hover"
       initial="initial"
-      className="relative"
+      className="relative flex justify-center"
     >
-    
+      {/* Efeito de glow */}
       <motion.div
         variants={{
           initial: { opacity: 0, scale: 1 },
-          hover: { opacity: [0.5, 0.4, 0.5], scale: 1.35 }
+          hover: { opacity: [0.2, 0.15, 0.2], scale: 1.15 }
         }}
-        transition={{ repeat: Infinity, duration: 1.5 }}
-        className="absolute inset-0 bg-laranja-escuro rounded-full blur-xl"
+        transition={{ repeat: Infinity, duration: 2 }}
+        className="absolute inset-0 bg-laranja-escuro rounded-full blur-md"
       />
 
-  
+      {/* Container do botão */}
       <motion.div
         variants={{
           hover: {
-            scale: 1.1,
+            scale: 1.05,
             transition: {
-              duration: 0.3,
+              duration: 0.2,
               staggerChildren: 0.075
             }
           }
         }}
         className="relative"
       >
-       
         {/* Botão principal */}
         <motion.button
           type={type}
@@ -39,49 +38,50 @@ const Butao = ({ type, children }) => {
               background: "linear-gradient(45deg, #FF8C38 0%, #FFB168 100%)" 
             },
             hover: { 
-              scale: 1.1,
+              scale: 1.05,
               background: "linear-gradient(45deg, #FFB168 0%, #FF8C38 100%)",
-              boxShadow: "0 0 20px rgb(255, 255, 255)"
+              boxShadow: "0 0 10px rgba(255, 140, 56, 0.5)"
             }
           }}
-          whileTap={{ scale: 0.95 }}
+          whileTap={{ scale: 0.98 }}
           transition={{ 
-            duration: 0.1,
-            background: { duration: 0.5 }
+            duration: 0.2,
+            background: { duration: 0.3 }
           }}
           className="relative py-2 px-6 rounded-full font-semibold text-white 
-                     overflow-hidden shadow-lg transform dark:text-black"
+                     overflow-hidden shadow-md transform dark:text-black
+                     w-full"
         >
-       
+          {/* Efeito de brilho */}
           <motion.span
             variants={{
-              initial: { x: "-100%", opacity: 0 },
+              initial: { x: "-40%", opacity: 0 },
               hover: { 
-                x: ["100%", "-100%"],
-                opacity: [0, 1, 0],
+                x: ["40%", "-40%"],
+                opacity: [0, 0.3, 0],
                 transition: {
                   repeat: Infinity,
-                  duration: 1.5
+                  duration: 2
                 }
               }
             }}
             className="absolute inset-0 bg-gradient-to-r from-transparent 
-                       via-white to-transparent opacity-30"
+                       via-white to-transparent opacity-20"
           />
 
-       
+          {/* Texto do botão */}
           <motion.span
             variants={{
               hover: {
-                scale: [1, 1.1, 1],
+                scale: [1, 1.05, 1],
                 transition: {
                   repeat: Infinity,
-                  duration: 1.5
+                  duration: 2
                 }
               }
             }}
             className="relative z-10 bg-gradient-to-r from-white to-orange-100 
-                       bg-clip-text text-transparent font-bold "
+                       bg-clip-text text-transparent font-bold"
           >
             {children}
           </motion.span>
