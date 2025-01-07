@@ -9,9 +9,9 @@ const Input = ({ type, placeholder, Choi }) => {
       placeholder={placeholder}
       whileFocus={{
         scale: 1.05, 
-        boxShadow: "0px 0px 10px rgba(255, 140, 0, 0.8)", // Adiciona um brilho laranja
+        boxShadow: "0px 0px 10px rgba(255, 140, 0, 0.8)"
       }}
-      transition={{ duration: 0.3 }} // Transição suave
+      transition={{ duration: 0.3 }}
     />
   );
 };

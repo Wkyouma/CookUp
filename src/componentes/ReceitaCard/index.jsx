@@ -2,11 +2,9 @@ import { ClockIcon, UserIcon, FireIcon } from '@heroicons/react/24/solid'
 import {Link} from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const ReceitaCard = ({ title, tags, text, id }) => {
-   
-    
+
+const ReceitaCard = ({ title, tags, id }) => {
     return (
-       
         <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -19,20 +17,16 @@ const ReceitaCard = ({ title, tags, text, id }) => {
                       transform hover:scale-102 transition-all duration-300
                       shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.2)]
                       border border-gray-100 dark:border-gray-800">
-            
-            {/* Imagem do Card */}
             <div className="h-48 overflow-hidden">
                 <img 
-                    src={`../../../public/galeria/${id}/foto.jpg`} 
+                    src={`../../public/galeria/${id}/foto.jpg`} 
                     alt={title}
                     onError={(e) => {
-                        e.target.src = '../../../public/galeria/error.jpg'; 
+                        e.target.src = '../../public/galeria/error.jpg'; 
                     }}
                     className="w-full h-full object-cover "
                 />
             </div>
-           
-            {/* Cabeçalho do Card */}
             <div className="h-24 bg-gradient-to-r from-laranja-claro to-laranja-escuro
                           dark:from-laranja-escuro dark:to-laranja-claro p-4
                           flex items-center justify-center">
@@ -41,10 +35,7 @@ const ReceitaCard = ({ title, tags, text, id }) => {
                     {title}
                 </h2>
             </div>
-
-            {/* Conteúdo */}
             <div className="p-6">
-                {/* Informações da Receita */}
                 <div className="flex justify-between mb-4 text-sm text-gray-600 dark:text-gray-400">
                     <div className="flex items-center">
                         <ClockIcon className="h-4 w-4 mr-1" />
@@ -59,9 +50,6 @@ const ReceitaCard = ({ title, tags, text, id }) => {
                         <span>Fácil</span>
                     </div>
                 </div>
-
-             
-                {/* Tags */}
                 <div className="flex flex-wrap gap-2">
                     {tags.split(',').map((tag, index) => (
                         <span key={index} 

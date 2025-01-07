@@ -7,7 +7,6 @@ const Butao = ({ type, children }) => {
       initial="initial"
       className="relative flex justify-center"
     >
-      {/* Efeito de glow */}
       <motion.div
         variants={{
           initial: { opacity: 0, scale: 1 },
@@ -16,8 +15,6 @@ const Butao = ({ type, children }) => {
         transition={{ repeat: Infinity, duration: 2 }}
         className="absolute inset-0 bg-laranja-escuro rounded-full blur-md"
       />
-
-      {/* Container do botão */}
       <motion.div
         variants={{
           hover: {
@@ -30,21 +27,20 @@ const Butao = ({ type, children }) => {
         }}
         className="relative"
       >
-        {/* Botão principal */}
         <motion.button
           type={type}
           variants={{
-            initial: { 
-              background: "linear-gradient(45deg, #FF8C38 0%, #FFB168 100%)" 
+            initial: {
+              background: "linear-gradient(45deg, #FF8C38 0%, #FFB168 100%)"
             },
-            hover: { 
+            hover: {
               scale: 1.05,
               background: "linear-gradient(45deg, #FFB168 0%, #FF8C38 100%)",
               boxShadow: "0 0 10px rgba(255, 140, 56, 0.5)"
             }
           }}
           whileTap={{ scale: 0.98 }}
-          transition={{ 
+          transition={{
             duration: 0.2,
             background: { duration: 0.3 }
           }}
@@ -52,11 +48,10 @@ const Butao = ({ type, children }) => {
                      overflow-hidden shadow-md transform dark:text-black
                      w-full"
         >
-          {/* Efeito de brilho */}
           <motion.span
             variants={{
               initial: { x: "-40%", opacity: 0 },
-              hover: { 
+              hover: {
                 x: ["40%", "-40%"],
                 opacity: [0, 0.3, 0],
                 transition: {
@@ -68,8 +63,6 @@ const Butao = ({ type, children }) => {
             className="absolute inset-0 bg-gradient-to-r from-transparent 
                        via-white to-transparent opacity-20"
           />
-
-          {/* Texto do botão */}
           <motion.span
             variants={{
               hover: {

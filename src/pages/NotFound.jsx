@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <div className="min-h-screen bg-slate-100 dark:bg-noturno-bg flex items-center justify-center px-4">
             <div className="text-center">
-                <motion.h1 
+                <motion.h1
                     className="text-9xl font-bold text-laranja-escuro dark:text-laranja-claro mb-4"
                     initial={{ opacity: 0, y: -100 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -13,8 +13,7 @@ const NotFound = () => {
                 >
                     404
                 </motion.h1>
-
-                <motion.h2 
+                <motion.h2
                     className="text-3xl font-semibold text-gray-800 dark:text-white mb-6"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -22,8 +21,7 @@ const NotFound = () => {
                 >
                     Ops! Página não encontrada
                 </motion.h2>
-
-                <motion.p 
+                <motion.p
                     className="text-gray-600 dark:text-gray-300 mb-8 max-w-md mx-auto"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -31,36 +29,34 @@ const NotFound = () => {
                 >
                     Parece que a receita que você está procurando não existe ou foi removida.
                 </motion.p>
-
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.6, duration: 0.5 }}
                 >
-                    <Link 
+                    <Link
                         to="/"
                         className="inline-block px-6 py-3 rounded-lg
                                  bg-gradient-to-r from-laranja-claro to-laranja-escuro
                                  text-white font-medium
                                  transform hover:scale-105 transition-all duration-300
-                                 shadow-lg hover:shadow-xl"
-                    >
+                                 shadow-lg hover:shadow-xl">
                         Voltar para o Início
                     </Link>
                 </motion.div>
                 <motion.div
                     className="mt-12"
-                    animate={{ 
+                    animate={{
                         rotate: [0, -10, 10, -10, 10, 0],
                         y: [0, -10, 0]
                     }}
-                    transition={{ 
+                    transition={{
                         duration: 2,
                         repeat: Infinity,
                         repeatType: "reverse"
                     }}
                 >
-                    <svg 
+                    <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-24 h-24 mx-auto text-laranja-escuro dark:text-laranja-claro"
                         viewBox="0 0 24 24"
@@ -79,5 +75,4 @@ const NotFound = () => {
         </div>
     )
 }
-
 export default NotFound
