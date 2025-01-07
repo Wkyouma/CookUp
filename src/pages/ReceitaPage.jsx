@@ -32,11 +32,11 @@ const ReceitaPage = () => {
                         className="relative h-96"
                     >
                         <img
-                            src={`../../public/galeria/${id}/foto.jpg`}
+                            src={`/galeria/${id}/foto.jpg`}
                             alt={receita.title}
                             className="w-full h-full object-cover"
                             onError={(e) => {
-                                e.target.src = '../../public/galeria/error.jpg'
+                                e.target.src = '/galeria/error.jpg'
                             }}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
