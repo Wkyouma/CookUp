@@ -19,10 +19,10 @@ const ReceitaCard = ({ title, tags, id }) => {
                       border border-gray-100 dark:border-gray-800">
             <div className="h-48 overflow-hidden">
                 <img 
-                    src={`../../public/galeria/${id}/foto.jpg`} 
+                    src={`/galeria/${id}/foto.jpg`} 
                     alt={title}
                     onError={(e) => {
-                        e.target.src = '../../public/galeria/error.jpg'; 
+                        e.target.src = '/galeria/error.jpg'; 
                     }}
                     className="w-full h-full object-cover "
                 />
