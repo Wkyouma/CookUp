@@ -15,7 +15,7 @@ const Form = ({ onSubmit }) => {
     }
 
     return (
-        <div className="w-full max-w-md p-8 bg-white dark:bg-noturno-card rounded-2xl shadow-xl mt-20">
+        <div className="w-full max-w-md p-8 bg-white dark:bg-noturno-card rounded-2xl shadow-xl mt-20 mx-auto px-4">
             <h2 className="text-2xl font-bold text-center mb-8 text-gray-800 dark:text-white">
                 Bem-vindo ao CookUp!
             </h2>

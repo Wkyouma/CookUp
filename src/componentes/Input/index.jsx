@@ -4,7 +4,7 @@ const Input = ({ type, placeholder, Choi }) => {
   return (
     <motion.input
     
-      className="bg-slate-300 rounded-lg w-96 p-2 text-laranja-escuro dark:bg-noturno-bg"
+      className=" bg-slate-300 rounded-lg w-full sm:w-96 p-2 text-laranja-escuro dark:bg-noturno-bg  ml-[15px]"
       type={type}
       placeholder={placeholder}
       whileFocus={{

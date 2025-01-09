@@ -14,7 +14,7 @@ const Rotas = () => {
         <div className='min-h-screen flex flex-col bg-slate-100 dark:bg-noturno-bg'>
             <BrowserRouter>
                 <Cabecalho user={user} />
-                <main className="flex-1 flex flex-col">
+                <main className="flex-1 flex flex-col px-4">
                     {hasUser ? (
                         <Routes>
                             <Route path="/" element={<PaginaPadrao />} />
@@ -22,9 +22,9 @@ const Rotas = () => {
                             <Route path="*" element={<NotFound />} />
                         </Routes>
                     ) : (
-                        <div className="flex-1 flex items-center justify-center">
+                       
                             <Form onSubmit={setUser} />
-                        </div>
+                        
                     )}
                 </main>
             </BrowserRouter>
