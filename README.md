@@ -1,6 +1,6 @@
 # CookUp
 
-CookUp é um projeto desenvolvido com **React**, **Vite** e **Tailwind CSS**. O objetivo do site é criar uma plataforma interativa para receitas e dicas culinárias, permitindo que os usuários descubram e compartilhem receitas de forma simples e rápida.
+CookUp é um projeto desenvolvido com **React**, **Vite** e **Tailwind CSS**. O objetivo do site é criar uma plataforma de receitas e dicas culinárias, permitindo que os usuários descubram receitas de forma simples e rápida.
 
 ## Tecnologias Usadas
 
