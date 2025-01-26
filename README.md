@@ -17,13 +17,13 @@ cookUp é um projeto desenvolvido com **React**, **Vite** e **Tailwind CSS**. O 
 1. **Clone o repositório**:
    git clone https://github.com/wkyouma/cookUp.git
    
-Acesse o diretório do projeto:
+2. **Acesse o diretório do projeto**:
 cd cookUp
 
-Execute o seguinte comando para instalar todas as dependências listadas no arquivo package.json:
+3. **Execute o seguinte comando para instalar todas as dependências listadas no arquivo package.json**:
 npm install
 
-Para rodar a aplicação localmente em modo de desenvolvimento:
+4. **Para rodar a aplicação localmente em modo de desenvolvimento**:
 npm run dev
 
 Após a execução, o projeto estará disponível em http://localhost:3000.
