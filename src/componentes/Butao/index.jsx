@@ -13,7 +13,7 @@ const Butao = ({ type, children }) => {
           hover: { opacity: [0.2, 0.15, 0.2], scale: 1.15 }
         }}
         transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute inset-0 bg-laranja-escuro rounded-full blur-md"
+     
       />
       <motion.div
         variants={{
@@ -36,7 +36,7 @@ const Butao = ({ type, children }) => {
             hover: {
               scale: 1.05,
               background: "linear-gradient(45deg, #FFB168 0%, #FF8C38 100%)",
-              boxShadow: "0 0 10px rgba(255, 140, 56, 0.5)"
+          
             }
           }}
           whileTap={{ scale: 0.98 }}
